@@ -8,16 +8,15 @@ It's purpose is to avoid minor bugs with labeling things in the software.
 
 Git:
 
-    git clone 
-    cd 
+    git clone https://github.com/muratyildiz1976/properties-util.git
 
-Or simply [download a zip]( todo url ) file.
+Or simply [download a zip]( https://github.com/muratyildiz1976/properties-util/archive/master.zip ) file.
 
 ## Use Maven
 
 Open a command window and run:
 
-	cd
+	cd properties-util
     mvn test
 
 This runs Cucumber features using Cucumber's JUnit runner. The `@RunWith(Cucumber.class)` annotation on the `RunCukesTest`
@@ -27,7 +26,7 @@ class tells JUnit to kick off Cucumber.
 
 Open a command window and run:
 
-	cd 
+	cd properties-util
     ./gradlew test --info
 
 This runs Cucumber features using Cucumber's JUnit runner. The `@RunWith(Cucumber.class)` annotation on the `RunCukesTest`
